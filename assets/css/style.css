@@ -1,0 +1,27 @@
+/* Color Theme Swatches in Hex */
+/* Color Theme Swatches in RGBA */
+/* Color Theme Swatches in HSLA */
+body h1, body h2, body h3, body h4, body h5, body h6, body p, body a, body span, body label, body input, body input::placeholder {
+  font-family: "Crimson Text" !important;
+}
+
+main .main-wrapper .hero-section {
+  margin-top: 0px;
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero.jpg");
+  height: 600px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main .main-wrapper .hero-section .hero-text {
+  width: 100%;
+}
+main .main-wrapper .hero-section .hero-text .stats-section .stat div .uk-text-meta {
+  margin-left: 20px;
+}
+main .main-wrapper .recommended-section {
+  background-color: #f2f2f2;
+}
+
+/*# sourceMappingURL=style.css.map */
