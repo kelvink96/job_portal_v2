@@ -1,7 +1,9 @@
 @import "colors"
 
 body
-  h1, h2, h3, h4, h5, h6, p, a, span, label, input, input::placeholder
+  background-color: $color-white
+
+  h1, h2, h3, h4, h5, h6, p, a, span, label, input, input::placeholder, button
     font-family: "Crimson Text" !important
 
 main
@@ -25,6 +27,26 @@ main
                 margin-left: 20px
 
     .recommended-section
-      background-color: $color-white
 
+    .job-offers-section
+      height: 300px
+      background-image: linear-gradient(90deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0.5)), url("../images/job-offers.jpg")
+      background-position: center
+      background-size: cover
+      background-repeat: no-repeat
+      border-radius: 1em
 
+    .testimonials-section
+      .testimonials-content
+        .uk-slideshow-items
+          width: 90%
+          margin: 0 auto
+          min-height: 420px !important
+
+          li
+            img
+              height: 400px
+              width: 400px
+              object-fit: cover
+
+            .user-testimonial-text
