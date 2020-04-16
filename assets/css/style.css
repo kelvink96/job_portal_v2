@@ -1,6 +1,51 @@
 /* Color Theme Swatches in Hex */
 /* Color Theme Swatches in RGBA */
 /* Color Theme Swatches in HSLA */
+/* Color Theme Swatches in Hex */
+/* Color Theme Swatches in RGBA */
+/* Color Theme Swatches in HSLA */
+.input-control .input-transparent {
+  background: transparent;
+  border: none;
+  color: #4491a2;
+}
+.input-control .input-transparent:focus {
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #2d97be;
+  transition: all ease 0.2s;
+}
+.input-control label {
+  color: #4491a2;
+}
+.input-control label i {
+  margin-right: 0.5em;
+}
+
+/* Color Theme Swatches in Hex */
+/* Color Theme Swatches in RGBA */
+/* Color Theme Swatches in HSLA */
+.button-blue {
+  background-color: #0c7bbb;
+  color: #f2f2f2;
+}
+.button-blue:hover, .button-blue:focus {
+  background-color: transparent;
+  border: 1.5px solid #0c7bbb;
+  color: #0c7bbb;
+}
+
+.button-cyan-dark {
+  background-color: #2d97be;
+  color: #f2f2f2;
+}
+.button-cyan-dark:hover, .button-cyan-dark:focus {
+  background-color: transparent;
+  border: 1.5px solid #2d97be;
+  color: #2d97be;
+  border-radius: 28px !important;
+}
+
 body {
   background-color: #f2f2f2;
 }
@@ -88,7 +133,7 @@ header .side-nav .uk-offcanvas-bar .uk-nav hr {
 }
 
 main .main-wrapper .hero-section {
-  margin-top: 0px;
+  margin-top: 0;
   background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero.jpg");
   height: 600px;
   width: 100%;
@@ -99,8 +144,40 @@ main .main-wrapper .hero-section {
 main .main-wrapper .hero-section .hero-text {
   width: 100%;
 }
+main .main-wrapper .hero-section .hero-text h1, main .main-wrapper .hero-section .hero-text p {
+  color: #f2f2f2;
+}
+main .main-wrapper .hero-section .hero-text .stats-section, main .main-wrapper .hero-section .hero-text .search-section {
+  margin-top: 3em;
+}
+main .main-wrapper .hero-section .hero-text .stats-section {
+  padding-top: 0.2em;
+}
+main .main-wrapper .hero-section .hero-text .stats-section .stat div span {
+  color: #f2f2f2;
+  padding: 0.3em;
+}
+main .main-wrapper .hero-section .hero-text .stats-section .stat div .fa-dot-circle {
+  color: #7ed3f1;
+}
 main .main-wrapper .hero-section .hero-text .stats-section .stat div .uk-text-meta {
-  margin-left: 20px;
+  margin-left: 25px;
+}
+main .main-wrapper .hero-section .hero-text .stats-section .stat div .uk-text-lead {
+  font-size: 2em;
+}
+main .main-wrapper .hero-section .hero-text .search-section {
+  background-color: #f2f2f2;
+  padding: 0.75em 1em;
+  border-radius: 4.5em;
+}
+main .main-wrapper .hero-section .hero-text .search-section .uk-width-2-4\@m {
+  padding-right: 1em;
+  border-right: 1px solid #2d97be;
+}
+main .main-wrapper .hero-section .hero-text .search-section .uk-button {
+  font-size: 1em;
+  border-radius: 26px;
 }
 main .main-wrapper .job-offers-section {
   height: 300px;

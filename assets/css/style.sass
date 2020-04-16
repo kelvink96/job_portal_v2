@@ -1,4 +1,7 @@
 @import "colors"
+@import "variables"
+@import "components/input"
+@import "components/button"
 
 body
   background-color: $color-white
@@ -99,7 +102,7 @@ header
 main
   .main-wrapper
     .hero-section
-      margin-top: 0px
+      margin-top: 0
       background-image: linear-gradient(90deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0.5)), url("../images/hero.jpg")
       height: 600px
       width: 100%
@@ -110,11 +113,42 @@ main
       .hero-text
         width: 100%
 
+        h1, p
+          color: $color-white
+
+        .stats-section, .search-section
+          margin-top: 3em
+
         .stats-section
+          padding-top: .2em
+
           .stat
             div
+              span
+                color: $color-white
+                padding: .3em
+
+              .fa-dot-circle
+                color: $color-cyan-light
+
               .uk-text-meta
-                margin-left: 20px
+                margin-left: 25px
+
+              .uk-text-lead
+                font-size: 2em
+
+        .search-section
+          background-color: $color-white
+          padding: .75em 1em
+          border-radius: 4.5em
+
+          .uk-width-2-4\@m
+            padding-right: 1em
+            border-right: 1px solid $color-cyan-dark
+
+          .uk-button
+            font-size: $fsi-s
+            border-radius: $radius-l
 
     .recommended-section
 

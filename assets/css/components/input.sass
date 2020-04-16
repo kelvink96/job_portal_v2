@@ -1,0 +1,19 @@
+@import "../colors"
+
+.input-control
+  .input-transparent
+    background: transparent
+    border: none
+    color: $color-cyan-darkest
+
+    &:focus
+      border: none
+      border-radius: 0
+      border-bottom: 1px solid $color-cyan-dark
+      transition: all ease .2s
+
+  label
+    color: $color-cyan-darkest
+
+    i
+      margin-right: .5em
