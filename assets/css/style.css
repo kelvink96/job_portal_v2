@@ -8,6 +8,84 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p, body a, body span,
   font-family: "Crimson Text" !important;
 }
 
+header nav {
+  padding: 0 1em;
+}
+header nav .uk-navbar-right li a {
+  color: #4491a2;
+  font-size: 1em;
+}
+header nav .uk-navbar-right li:hover, header nav .uk-navbar-right li:focus {
+  transition: all ease 0.2s;
+}
+header nav .uk-navbar-right li:not(.action-button):hover, header nav .uk-navbar-right li:not(.action-button):focus {
+  background-color: #4491a2;
+}
+header nav .uk-navbar-right li:not(.action-button):hover a, header nav .uk-navbar-right li:not(.action-button):focus a {
+  color: #f2f2f2;
+}
+header nav .uk-navbar-right li.action-button {
+  background-color: #2d97be;
+}
+header nav .uk-navbar-right li.action-button a {
+  color: #f2f2f2;
+}
+header nav .uk-navbar-right li.action-button i {
+  margin-right: 0.5em;
+}
+header nav .uk-navbar-right li.action-button:hover, header nav .uk-navbar-right li.action-button:focus {
+  background-color: #4491a2;
+}
+header nav .uk-navbar-right li.action-button:hover a, header nav .uk-navbar-right li.action-button:focus a {
+  text-decoration: none;
+}
+header nav .uk-navbar-right .uk-hidden\@m {
+  color: #4491a2;
+}
+header nav .uk-nav-header {
+  color: #4491a2;
+  font-size: 1.5em;
+}
+header .side-nav .uk-offcanvas-bar {
+  background: #4491a2;
+  padding: 0;
+}
+header .side-nav .uk-offcanvas-bar .uk-offcanvas-close {
+  color: #f2f2f2;
+}
+header .side-nav .uk-offcanvas-bar .uk-nav li {
+  padding: 0.35em 2em;
+}
+header .side-nav .uk-offcanvas-bar .uk-nav li a {
+  color: #f2f2f2;
+  font-size: 1.2em;
+  text-transform: capitalize;
+}
+header .side-nav .uk-offcanvas-bar .uk-nav li .uk-nav-header {
+  padding-bottom: 0.5em;
+  margin-top: 10px;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+header .side-nav .uk-offcanvas-bar .uk-nav li.action-button i {
+  margin-right: 0.3em;
+}
+header .side-nav .uk-offcanvas-bar .uk-nav li:not(.nav-header):hover, header .side-nav .uk-offcanvas-bar .uk-nav li:not(.nav-header):focus {
+  background-color: #f2f2f2;
+  transition: all ease 0.2s;
+}
+header .side-nav .uk-offcanvas-bar .uk-nav li:not(.nav-header):hover a, header .side-nav .uk-offcanvas-bar .uk-nav li:not(.nav-header):focus a {
+  color: #4491a2;
+  text-decoration: none;
+}
+header .side-nav .uk-offcanvas-bar .uk-nav hr {
+  background-color: #7ed3f1;
+  width: 80%;
+  height: 1.5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 main .main-wrapper .hero-section {
   margin-top: 0px;
   background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero.jpg");

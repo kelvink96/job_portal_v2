@@ -8,6 +8,92 @@ body
 
 header
   nav
+    padding: 0 1em
+
+    .uk-navbar-right
+      li
+        a
+          color: $color-cyan-darkest
+          font-size: 1em
+
+        &:hover,
+        &:focus
+          transition: all ease .2s
+
+        &:not(.action-button)
+          &:hover,
+          &:focus
+            background-color: $color-cyan-darkest
+
+            a
+              color: $color-white
+
+        &.action-button
+          background-color: $color-cyan-dark
+
+          a
+            color: $color-white
+
+          i
+            margin-right: .5em
+
+          &:hover,
+          &:focus
+            background-color: $color-cyan-darkest
+
+            a
+              text-decoration: none
+
+      .uk-hidden\@m
+        color: $color-cyan-darkest
+
+    .uk-nav-header
+      color: $color-cyan-darkest
+      font-size: 1.5em
+
+  .side-nav
+    .uk-offcanvas-bar
+      background: $color-cyan-darkest
+      padding: 0
+
+      .uk-offcanvas-close
+        color: $color-white
+
+      .uk-nav
+        li
+          padding: .35em 2em
+
+          a
+            color: $color-white
+            font-size: 1.2em
+            text-transform: capitalize
+
+          .uk-nav-header
+            padding-bottom: .5em
+            margin-top: 10px
+            font-size: 1.5em
+            text-transform: uppercase
+
+          &.action-button
+            i
+              margin-right: .3em
+
+          &:not(.nav-header)
+            &:hover,
+            &:focus
+              background-color: $color-white
+              transition: all ease .2s
+
+              a
+                color: $color-cyan-darkest
+                text-decoration: none
+
+        hr
+          background-color: $color-cyan-light
+          width: 80%
+          height: 1.5px
+          margin-left: auto
+          margin-right: auto
 
 main
   .main-wrapper
