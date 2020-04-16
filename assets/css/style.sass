@@ -234,6 +234,8 @@ main
             &:focus
               cursor: pointer
               transition: all ease .2s
+
+
               transform: scale(1.075, 1.075)
 
     .job-offers-section
@@ -243,6 +245,22 @@ main
       background-size: cover
       background-repeat: no-repeat
       border-radius: 1em
+
+      .uk-text-center
+        .uk-heading-medium
+          color: $color-white
+
+        .uk-button
+          font-size: $fsi-m
+
+          i
+            margin-left: .5em
+            display: none
+
+          &:hover,
+          &:focus
+            i
+              display: inline-block
 
     .testimonials-section
       .testimonials-content
