@@ -150,7 +150,91 @@ main
             font-size: $fsi-s
             border-radius: $radius-l
 
+            &:hover,
+            &:focus
+              border-radius: $radius-l + 2px
+
     .recommended-section
+      .recommended-section-text
+        .uk-text-left
+          font-size: $fsi-m
+
+        .company-testimonials
+          p
+            font-size: $fsi-s
+            text-transform: capitalize
+            margin: .5em 0
+
+            & > i
+              margin-right: .5em
+              font-size: $fsi-m
+
+        .view-popular-jobs
+          .uk-button
+            font-size: $fsi-s
+            border-radius: $radius-l
+
+            &:hover,
+            &:focus
+              border-radius: $radius-l + 2px
+
+              i
+                margin-left: .35em
+                transition: all ease .2s
+
+        .popular-jobs-stats
+          height: 250px
+
+          & > div
+            font-size: $fsi-s
+
+            .fa-dot-circle
+              color: $color-cyan-dark
+
+            .uk-text-meta
+              font-size: $fsi-s
+
+      .job-cards
+        .uk-width-1-2\@m
+          margin: 1em 0
+
+          .uk-card
+            padding: 20px
+
+            .card-image
+              i
+                width: 48%
+
+            .card-body
+              padding: 1.5em 0
+
+              p
+                margin: 0
+                text-transform: capitalize
+
+              .job-title
+                padding: .5em 0
+
+              .job-company
+                font-weight: 600
+
+            .card-action
+              .uk-button
+                width: 100%
+                font-size: $fsi-s
+
+                i
+                  margin-left: .75em
+
+                &:hover,
+                &:focus
+                  height: 38px
+
+            &:hover,
+            &:focus
+              cursor: pointer
+              transition: all ease .2s
+              transform: scale(1.075, 1.075)
 
     .job-offers-section
       height: 300px

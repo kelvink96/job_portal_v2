@@ -1,10 +1,12 @@
 @import "../colors"
+@import "../variables"
 
 .input-control
   .input-transparent
     background: transparent
     border: none
     color: $color-cyan-darkest
+    font-size: $fsi-s
 
     &:focus
       border: none
@@ -13,7 +15,8 @@
       transition: all ease .2s
 
   label
-    color: $color-cyan-darkest
+    color: $color-blue-medium
+    font-size: $fsi-s
 
     i
       margin-right: .5em

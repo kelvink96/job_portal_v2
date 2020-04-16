@@ -8,6 +8,7 @@
   background: transparent;
   border: none;
   color: #4491a2;
+  font-size: 1em;
 }
 .input-control .input-transparent:focus {
   border: none;
@@ -16,7 +17,8 @@
   transition: all ease 0.2s;
 }
 .input-control label {
-  color: #4491a2;
+  color: #0c7bbb;
+  font-size: 1em;
 }
 .input-control label i {
   margin-right: 0.5em;
@@ -31,7 +33,7 @@
 }
 .button-blue:hover, .button-blue:focus {
   background-color: transparent;
-  border: 1.5px solid #0c7bbb;
+  border: 1px solid #0c7bbb;
   color: #0c7bbb;
 }
 
@@ -41,9 +43,8 @@
 }
 .button-cyan-dark:hover, .button-cyan-dark:focus {
   background-color: transparent;
-  border: 1.5px solid #2d97be;
+  border: 1px solid #2d97be;
   color: #2d97be;
-  border-radius: 28px !important;
 }
 
 body {
@@ -178,6 +179,81 @@ main .main-wrapper .hero-section .hero-text .search-section .uk-width-2-4\@m {
 main .main-wrapper .hero-section .hero-text .search-section .uk-button {
   font-size: 1em;
   border-radius: 26px;
+}
+main .main-wrapper .hero-section .hero-text .search-section .uk-button:hover, main .main-wrapper .hero-section .hero-text .search-section .uk-button:focus {
+  border-radius: 28px;
+}
+main .main-wrapper .recommended-section .recommended-section-text .uk-text-left {
+  font-size: 1.3em;
+}
+main .main-wrapper .recommended-section .recommended-section-text .company-testimonials p {
+  font-size: 1em;
+  text-transform: capitalize;
+  margin: 0.5em 0;
+}
+main .main-wrapper .recommended-section .recommended-section-text .company-testimonials p > i {
+  margin-right: 0.5em;
+  font-size: 1.3em;
+}
+main .main-wrapper .recommended-section .recommended-section-text .view-popular-jobs .uk-button {
+  font-size: 1em;
+  border-radius: 26px;
+}
+main .main-wrapper .recommended-section .recommended-section-text .view-popular-jobs .uk-button:hover, main .main-wrapper .recommended-section .recommended-section-text .view-popular-jobs .uk-button:focus {
+  border-radius: 28px;
+}
+main .main-wrapper .recommended-section .recommended-section-text .view-popular-jobs .uk-button:hover i, main .main-wrapper .recommended-section .recommended-section-text .view-popular-jobs .uk-button:focus i {
+  margin-left: 0.35em;
+  transition: all ease 0.2s;
+}
+main .main-wrapper .recommended-section .recommended-section-text .popular-jobs-stats {
+  height: 250px;
+}
+main .main-wrapper .recommended-section .recommended-section-text .popular-jobs-stats > div {
+  font-size: 1em;
+}
+main .main-wrapper .recommended-section .recommended-section-text .popular-jobs-stats > div .fa-dot-circle {
+  color: #2d97be;
+}
+main .main-wrapper .recommended-section .recommended-section-text .popular-jobs-stats > div .uk-text-meta {
+  font-size: 1em;
+}
+main .main-wrapper .recommended-section .job-cards .uk-width-1-2\@m {
+  margin: 1em 0;
+}
+main .main-wrapper .recommended-section .job-cards .uk-width-1-2\@m .uk-card {
+  padding: 20px;
+}
+main .main-wrapper .recommended-section .job-cards .uk-width-1-2\@m .uk-card .card-image i {
+  width: 48%;
+}
+main .main-wrapper .recommended-section .job-cards .uk-width-1-2\@m .uk-card .card-body {
+  padding: 1.5em 0;
+}
+main .main-wrapper .recommended-section .job-cards .uk-width-1-2\@m .uk-card .card-body p {
+  margin: 0;
+  text-transform: capitalize;
+}
+main .main-wrapper .recommended-section .job-cards .uk-width-1-2\@m .uk-card .card-body .job-title {
+  padding: 0.5em 0;
+}
+main .main-wrapper .recommended-section .job-cards .uk-width-1-2\@m .uk-card .card-body .job-company {
+  font-weight: 600;
+}
+main .main-wrapper .recommended-section .job-cards .uk-width-1-2\@m .uk-card .card-action .uk-button {
+  width: 100%;
+  font-size: 1em;
+}
+main .main-wrapper .recommended-section .job-cards .uk-width-1-2\@m .uk-card .card-action .uk-button i {
+  margin-left: 0.75em;
+}
+main .main-wrapper .recommended-section .job-cards .uk-width-1-2\@m .uk-card .card-action .uk-button:hover, main .main-wrapper .recommended-section .job-cards .uk-width-1-2\@m .uk-card .card-action .uk-button:focus {
+  height: 38px;
+}
+main .main-wrapper .recommended-section .job-cards .uk-width-1-2\@m .uk-card:hover, main .main-wrapper .recommended-section .job-cards .uk-width-1-2\@m .uk-card:focus {
+  cursor: pointer;
+  transition: all ease 0.2s;
+  transform: scale(1.075, 1.075);
 }
 main .main-wrapper .job-offers-section {
   height: 300px;
