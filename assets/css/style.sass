@@ -251,7 +251,8 @@ main
           color: $color-white
 
         .uk-button
-          font-size: $fsi-m
+          font-size: $fsi-s
+          border-radius: $radius-l
 
           i
             margin-left: .5em
@@ -259,8 +260,62 @@ main
 
           &:hover,
           &:focus
+            border-radius: $radius-l + 2px
+
             i
               display: inline-block
+
+    .news-section
+      .news-section-title
+        margin: 2em 0
+
+      .news-content
+        & > .uk-grid
+          .uk-card
+            .uk-card-body
+              padding: 20px
+
+              .uk-card-title
+                margin-bottom: 10px
+
+              p
+                margin-top: 10px
+                font-size: $fsi-s
+
+            .uk-card-footer
+              padding: 15px
+
+              .fa-heart
+                color: deeppink
+
+              .fa-bookmark
+                color: $color-cyan-light
+
+              i
+                &:hover,
+                &:focus
+                  cursor: pointer
+                  opacity: .8
+                  transition: all ease .2s
+
+        .read-more-btn
+          margin-top: 2em
+
+          .uk-button
+            font-size: $fsi-s
+            border-radius: $radius-l
+
+            i
+              margin-left: .5em
+              display: none
+
+            &:hover,
+            &:focus
+              border-radius: $radius-l + 2px
+
+              i
+                display: inline-block
+
 
     .testimonials-section
       .testimonials-content

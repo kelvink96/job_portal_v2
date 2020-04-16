@@ -277,13 +277,61 @@ main .main-wrapper .job-offers-section .uk-text-center .uk-heading-medium {
   color: #f2f2f2;
 }
 main .main-wrapper .job-offers-section .uk-text-center .uk-button {
-  font-size: 1.3em;
+  font-size: 1em;
+  border-radius: 26px;
 }
 main .main-wrapper .job-offers-section .uk-text-center .uk-button i {
   margin-left: 0.5em;
   display: none;
 }
+main .main-wrapper .job-offers-section .uk-text-center .uk-button:hover, main .main-wrapper .job-offers-section .uk-text-center .uk-button:focus {
+  border-radius: 28px;
+}
 main .main-wrapper .job-offers-section .uk-text-center .uk-button:hover i, main .main-wrapper .job-offers-section .uk-text-center .uk-button:focus i {
+  display: inline-block;
+}
+main .main-wrapper .news-section .news-section-title {
+  margin: 2em 0;
+}
+main .main-wrapper .news-section .news-content > .uk-grid .uk-card .uk-card-body {
+  padding: 20px;
+}
+main .main-wrapper .news-section .news-content > .uk-grid .uk-card .uk-card-body .uk-card-title {
+  margin-bottom: 10px;
+}
+main .main-wrapper .news-section .news-content > .uk-grid .uk-card .uk-card-body p {
+  margin-top: 10px;
+  font-size: 1em;
+}
+main .main-wrapper .news-section .news-content > .uk-grid .uk-card .uk-card-footer {
+  padding: 15px;
+}
+main .main-wrapper .news-section .news-content > .uk-grid .uk-card .uk-card-footer .fa-heart {
+  color: deeppink;
+}
+main .main-wrapper .news-section .news-content > .uk-grid .uk-card .uk-card-footer .fa-bookmark {
+  color: #7ed3f1;
+}
+main .main-wrapper .news-section .news-content > .uk-grid .uk-card .uk-card-footer i:hover, main .main-wrapper .news-section .news-content > .uk-grid .uk-card .uk-card-footer i:focus {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: all ease 0.2s;
+}
+main .main-wrapper .news-section .news-content .read-more-btn {
+  margin-top: 2em;
+}
+main .main-wrapper .news-section .news-content .read-more-btn .uk-button {
+  font-size: 1em;
+  border-radius: 26px;
+}
+main .main-wrapper .news-section .news-content .read-more-btn .uk-button i {
+  margin-left: 0.5em;
+  display: none;
+}
+main .main-wrapper .news-section .news-content .read-more-btn .uk-button:hover, main .main-wrapper .news-section .news-content .read-more-btn .uk-button:focus {
+  border-radius: 28px;
+}
+main .main-wrapper .news-section .news-content .read-more-btn .uk-button:hover i, main .main-wrapper .news-section .news-content .read-more-btn .uk-button:focus i {
   display: inline-block;
 }
 main .main-wrapper .testimonials-section .testimonials-content .uk-slideshow-items {
