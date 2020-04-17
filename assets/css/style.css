@@ -278,7 +278,7 @@ main .main-wrapper .job-offers-section {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 1em;
+  border-radius: 18px;
 }
 main .main-wrapper .job-offers-section .uk-text-center .uk-heading-medium {
   color: #f2f2f2;
@@ -465,6 +465,13 @@ footer .uk-container p {
   body main .main-wrapper .recommended-section .uk-container > .uk-grid .job-cards .uk-grid {
     padding-left: 0;
     margin-left: 0;
+  }
+  body main .main-wrapper .job-offers-section {
+    border-radius: 0;
+  }
+  body main .main-wrapper .job-offers-section .uk-container .uk-heading-medium {
+    font-size: 2.5em;
+    font-weight: 600;
   }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
