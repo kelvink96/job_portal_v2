@@ -103,6 +103,9 @@ header nav .uk-nav-header {
   color: #4491a2;
   font-size: 1.5em;
 }
+header nav .uk-nav-header:hover, header nav .uk-nav-header:focus {
+  color: #2d97be;
+}
 header .side-nav .uk-offcanvas-bar {
   background: #4491a2;
   padding: 0;
@@ -115,7 +118,7 @@ header .side-nav .uk-offcanvas-bar .uk-nav li {
 }
 header .side-nav .uk-offcanvas-bar .uk-nav li a {
   color: #f2f2f2;
-  font-size: 1.2em;
+  font-size: 1.3em;
   text-transform: capitalize;
 }
 header .side-nav .uk-offcanvas-bar .uk-nav li .uk-nav-header {
@@ -291,7 +294,7 @@ main .main-wrapper .job-offers-section .uk-text-center .uk-button:hover i, main 
   display: inline-block;
 }
 main .main-wrapper .news-section .news-section-title {
-  margin: 2em 0;
+  margin-bottom: 4em;
 }
 main .main-wrapper .news-section .news-content > .uk-grid .uk-card .uk-card-body {
   padding: 20px;
@@ -317,8 +320,12 @@ main .main-wrapper .news-section .news-content > .uk-grid .uk-card .uk-card-foot
   opacity: 0.8;
   transition: all ease 0.2s;
 }
+main .main-wrapper .news-section .news-content > .uk-grid .uk-card:hover, main .main-wrapper .news-section .news-content > .uk-grid .uk-card:focus {
+  transform: scale(1.07, 1.07);
+  transition: all ease 0.2s;
+}
 main .main-wrapper .news-section .news-content .read-more-btn {
-  margin-top: 2em;
+  margin-top: 4em;
 }
 main .main-wrapper .news-section .news-content .read-more-btn .uk-button {
   font-size: 1em;
@@ -335,7 +342,7 @@ main .main-wrapper .news-section .news-content .read-more-btn .uk-button:hover i
   display: inline-block;
 }
 main .main-wrapper .testimonials-section .testimonials-title {
-  margin: 2em 0;
+  margin-bottom: 4em;
 }
 main .main-wrapper .testimonials-section .testimonials-content .uk-slideshow-items {
   width: 90%;
