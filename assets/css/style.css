@@ -388,4 +388,52 @@ footer .uk-container p {
   font-size: 1.3em;
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body main .main-wrapper .hero-section {
+    align-items: inherit;
+    height: 100%;
+  }
+  body main .main-wrapper .hero-section .hero-text h1, body main .main-wrapper .hero-section .hero-text p {
+    text-align: center;
+  }
+  body main .main-wrapper .hero-section .hero-text .stats-section, body main .main-wrapper .hero-section .hero-text .search-section {
+    margin: 0 auto 1em auto;
+  }
+  body main .main-wrapper .hero-section .hero-text .stats-section {
+    margin-left: 30px;
+    padding-left: 0;
+  }
+  body main .main-wrapper .hero-section .hero-text .stats-section .stat {
+    padding-left: 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+  body main .main-wrapper .hero-section .hero-text .stats-section .stat > div .uk-text-lead {
+    font-size: 1.3em;
+  }
+  body main .main-wrapper .hero-section .hero-text .stats-section .stat > div .uk-text-meta {
+    margin-left: 15px;
+  }
+  body main .main-wrapper .hero-section .hero-text .search-section {
+    border-radius: 0.5em;
+    padding: 1.5em;
+  }
+  body main .main-wrapper .hero-section .hero-text .search-section > div {
+    margin-bottom: 1em;
+    padding-left: 0;
+  }
+  body main .main-wrapper .hero-section .hero-text .search-section .uk-width-2-4\@m {
+    border-right: none;
+    padding-right: 0;
+  }
+  body main .main-wrapper .hero-section .hero-text .search-section .uk-width-1-4\@m .uk-button {
+    width: 100%;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
 /*# sourceMappingURL=style.css.map */

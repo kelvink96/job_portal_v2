@@ -379,3 +379,64 @@ footer
     p
       color: $color-white
       font-size: $fsi-m
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px)
+  body
+    main
+      .main-wrapper
+        .hero-section
+          align-items: inherit
+          height: 100%
+
+          .hero-text
+            h1, p
+              text-align: center
+
+            .stats-section, .search-section
+              margin: 0 auto 1em auto
+
+            .stats-section
+              margin-left: 30px
+              padding-left: 0
+
+              .stat
+                padding-left: 0
+                margin: 0 auto
+                text-align: center
+
+                & > div
+                  .uk-text-lead
+                    font-size: $fsi-m
+
+                  .uk-text-meta
+                    margin-left: 15px
+
+            .search-section
+              border-radius: .5em
+              padding: 1.5em
+
+              & > div
+                margin-bottom: 1em
+                padding-left: 0
+
+              .uk-width-2-4\@m
+                border-right: none
+                padding-right: 0
+
+              .uk-width-1-4\@m
+                .uk-button
+                  width: 100%
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px)
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px)
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) 
