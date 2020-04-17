@@ -357,8 +357,9 @@
             <div class="testimonials-title uk-container uk-text-center">
                 <h2 class="uk-text-capitalize uk-heading-medium uk-text-center uk-text-bold">user stories</h2>
             </div>
-            <div class="uk-position-relative uk-visible-toggle testimonials-content" tabindex="-1"
-                 uk-slideshow="animation: fade">
+            <!--            visible on > medium devices-->
+            <div class="uk-position-relative uk-visible-toggle testimonials-content uk-visible@m slideshow-on-medium" tabindex="-1"
+                 uk-slideshow="animation: fade" uk-height-viewport="min-height: 420">
                 <ul class="uk-slideshow-items">
                     <li>
                         <div class="uk-grid">
@@ -479,6 +480,40 @@
                     <a href="" class="" uk-slideshow-item="next"><i
                             class="fas fa-arrow-circle-right"></i></a>
                 </div>
+            </div>
+            <!--            visible on small devices-->
+            <div class="uk-position-relative uk-visible-toggle uk-light slideshow-on-small" tabindex="-1"
+                 uk-slideshow="animation: slide">
+                <ul class="uk-slideshow-items">
+                    <li>
+                        <img src="assets/images/person1%20(1).jpg" alt="" loading="lazy">
+                        <div class="uk-overlay uk-overlay-primary uk-position-right uk-text-center uk-transition-slide-right">
+                            <p class="uk-margin-remove uk-text-capitalize uk-position-center">james doe</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="assets/images/person2%20(1).jpg" alt="" loading="lazy">
+                        <div class="uk-overlay uk-overlay-primary uk-position-right uk-text-center uk-transition-slide-right">
+                            <p class="uk-margin-remove uk-text-capitalize uk-position-center">jane doe</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="assets/images/person3%20(1).jpg" alt="" loading="lazy">
+                        <div class="uk-overlay uk-overlay-primary uk-position-right uk-text-center uk-transition-slide-right">
+                            <p class="uk-margin-remove uk-text-capitalize uk-position-center">jacob doe</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="assets/images/person4%20(1).jpg" alt="" loading="lazy">
+                        <div class="uk-overlay uk-overlay-primary uk-position-right uk-text-center uk-transition-slide-right">
+                            <p class="uk-margin-remove uk-text-capitalize uk-position-center">john doe</p>
+                        </div>
+                    </li>
+                </ul>
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+                   uk-slideshow-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+                   uk-slideshow-item="next"></a>
             </div>
         </div>
     </div>

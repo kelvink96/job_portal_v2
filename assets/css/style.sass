@@ -336,11 +336,14 @@ main
       .testimonials-title
         margin-bottom: 4em
 
+      .slideshow-on-small
+        display: none
+
       .testimonials-content
         .uk-slideshow-items
           width: 90%
           margin: 0 auto
-          min-height: 420px !important
+          min-height: 420px
 
           li
             img
@@ -366,10 +369,15 @@ main
                   margin: 0
                   font-size: $fsi-m
 
+
         .uk-position-bottom-right
           a
             font-size: $fsi-xl
             color: $color-blue-medium
+
+            i
+              background-color: $color-white
+              border-radius: 50%
 
             &:last-child
               margin-left: .35em
@@ -499,6 +507,30 @@ footer
               .uk-button
                 width: 100%
 
+        .testimonials-section
+          width: 80%
+
+          .testimonials-title
+            margin-bottom: 1.5em
+
+          .slideshow-on-small
+            display: block
+
+            .uk-slideshow-items
+              background-color: $color-grey
+              li
+                img
+                  width: 50%
+                  height: 100%
+                  object-fit: cover
+
+                .uk-overlay
+                  background-color: $color-grey
+                  padding: 20px
+                  width: 35%
+
+                  p
+                    color: $color-white
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px)

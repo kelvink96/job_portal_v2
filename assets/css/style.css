@@ -351,10 +351,13 @@ main .main-wrapper .news-section .news-content .read-more-btn .uk-button:hover i
 main .main-wrapper .testimonials-section .testimonials-title {
   margin-bottom: 4em;
 }
+main .main-wrapper .testimonials-section .slideshow-on-small {
+  display: none;
+}
 main .main-wrapper .testimonials-section .testimonials-content .uk-slideshow-items {
   width: 90%;
   margin: 0 auto;
-  min-height: 420px !important;
+  min-height: 420px;
 }
 main .main-wrapper .testimonials-section .testimonials-content .uk-slideshow-items li img {
   height: 450px;
@@ -378,6 +381,10 @@ main .main-wrapper .testimonials-section .testimonials-content .uk-slideshow-ite
 main .main-wrapper .testimonials-section .testimonials-content .uk-position-bottom-right a {
   font-size: 2.5em;
   color: #0c7bbb;
+}
+main .main-wrapper .testimonials-section .testimonials-content .uk-position-bottom-right a i {
+  background-color: #f2f2f2;
+  border-radius: 50%;
 }
 main .main-wrapper .testimonials-section .testimonials-content .uk-position-bottom-right a:last-child {
   margin-left: 0.35em;
@@ -490,6 +497,31 @@ footer .uk-container p {
   }
   body main .main-wrapper .news-section .news-content .read-more-btn .uk-button {
     width: 100%;
+  }
+  body main .main-wrapper .testimonials-section {
+    width: 80%;
+  }
+  body main .main-wrapper .testimonials-section .testimonials-title {
+    margin-bottom: 1.5em;
+  }
+  body main .main-wrapper .testimonials-section .slideshow-on-small {
+    display: block;
+  }
+  body main .main-wrapper .testimonials-section .slideshow-on-small .uk-slideshow-items {
+    background-color: #666;
+  }
+  body main .main-wrapper .testimonials-section .slideshow-on-small .uk-slideshow-items li img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+  }
+  body main .main-wrapper .testimonials-section .slideshow-on-small .uk-slideshow-items li .uk-overlay {
+    background-color: #666;
+    padding: 20px;
+    width: 35%;
+  }
+  body main .main-wrapper .testimonials-section .slideshow-on-small .uk-slideshow-items li .uk-overlay p {
+    color: #f2f2f2;
   }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
