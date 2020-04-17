@@ -334,15 +334,42 @@ main .main-wrapper .news-section .news-content .read-more-btn .uk-button:hover, 
 main .main-wrapper .news-section .news-content .read-more-btn .uk-button:hover i, main .main-wrapper .news-section .news-content .read-more-btn .uk-button:focus i {
   display: inline-block;
 }
+main .main-wrapper .testimonials-section .testimonials-title {
+  margin: 2em 0;
+}
 main .main-wrapper .testimonials-section .testimonials-content .uk-slideshow-items {
   width: 90%;
   margin: 0 auto;
   min-height: 420px !important;
 }
 main .main-wrapper .testimonials-section .testimonials-content .uk-slideshow-items li img {
-  height: 400px;
-  width: 400px;
+  height: 450px;
+  width: 450px;
   object-fit: cover;
+}
+main .main-wrapper .testimonials-section .testimonials-content .uk-slideshow-items li .user-testimonial-text .uk-text-justify {
+  font-size: 1.3em;
+}
+main .main-wrapper .testimonials-section .testimonials-content .uk-slideshow-items li .user-testimonial-text .uk-grid > div hr {
+  width: 100%;
+  height: 3px;
+  background-color: rgba(102, 102, 102, 0.3);
+  border-radius: 10px;
+  margin-top: 0.75em;
+}
+main .main-wrapper .testimonials-section .testimonials-content .uk-slideshow-items li .user-testimonial-text .uk-text-left p {
+  margin: 0;
+  font-size: 1.3em;
+}
+main .main-wrapper .testimonials-section .testimonials-content .uk-position-bottom-right a {
+  font-size: 2.5em;
+  color: #0c7bbb;
+}
+main .main-wrapper .testimonials-section .testimonials-content .uk-position-bottom-right a:last-child {
+  margin-left: 0.35em;
+}
+main .main-wrapper .testimonials-section .testimonials-content .uk-position-bottom-right a:hover, main .main-wrapper .testimonials-section .testimonials-content .uk-position-bottom-right a:focus {
+  color: #4491a2;
 }
 
 /*# sourceMappingURL=style.css.map */
