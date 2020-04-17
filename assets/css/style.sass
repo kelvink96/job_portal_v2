@@ -160,8 +160,9 @@ main
 
     .recommended-section
       .recommended-section-text
-        .uk-text-left
+        p
           font-size: $fsi-m
+          text-align: left
 
         .company-testimonials
           p
@@ -199,6 +200,9 @@ main
               font-size: $fsi-s
 
       .job-cards
+        .job-cards-title
+          width: 100%
+
         .uk-width-1-2\@m
           margin: 1em 0
 
@@ -388,7 +392,7 @@ footer
       .main-wrapper
         .hero-section
           align-items: inherit
-          height: 100%
+          height: auto
 
           .hero-text
             h1, p
@@ -428,6 +432,42 @@ footer
               .uk-width-1-4\@m
                 .uk-button
                   width: 100%
+
+        .recommended-section
+          .uk-container
+            & > .uk-grid
+              .recommended-section-text
+                h2, p
+                  text-align: center
+
+                .company-testimonials
+                  margin: 0 auto
+
+                  p
+                    margin: 0 auto
+                    text-align: center
+
+                .view-popular-jobs
+                  button
+                    padding: 0 20px
+                    width: 100%
+
+                .popular-jobs-stats
+                  height: auto
+                  align-items: normal
+
+                  div
+                    margin: 0 auto
+                    text-align: center
+
+              .job-cards
+                padding: 1em
+                .job-cards-title
+                  margin: 2em 0 1em 0
+
+                .uk-grid
+                  padding-left: 0
+                  margin-left: 0
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px)

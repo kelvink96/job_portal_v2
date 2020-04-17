@@ -196,8 +196,9 @@ main .main-wrapper .hero-section .hero-text .search-section .uk-button {
 main .main-wrapper .hero-section .hero-text .search-section .uk-button:hover, main .main-wrapper .hero-section .hero-text .search-section .uk-button:focus {
   border-radius: 28px;
 }
-main .main-wrapper .recommended-section .recommended-section-text .uk-text-left {
+main .main-wrapper .recommended-section .recommended-section-text p {
   font-size: 1.3em;
+  text-align: left;
 }
 main .main-wrapper .recommended-section .recommended-section-text .company-testimonials p {
   font-size: 1em;
@@ -230,6 +231,9 @@ main .main-wrapper .recommended-section .recommended-section-text .popular-jobs-
 }
 main .main-wrapper .recommended-section .recommended-section-text .popular-jobs-stats > div .uk-text-meta {
   font-size: 1em;
+}
+main .main-wrapper .recommended-section .job-cards .job-cards-title {
+  width: 100%;
 }
 main .main-wrapper .recommended-section .job-cards .uk-width-1-2\@m {
   margin: 1em 0;
@@ -392,7 +396,7 @@ footer .uk-container p {
 @media only screen and (max-width: 600px) {
   body main .main-wrapper .hero-section {
     align-items: inherit;
-    height: 100%;
+    height: auto;
   }
   body main .main-wrapper .hero-section .hero-text h1, body main .main-wrapper .hero-section .hero-text p {
     text-align: center;
@@ -429,6 +433,38 @@ footer .uk-container p {
   }
   body main .main-wrapper .hero-section .hero-text .search-section .uk-width-1-4\@m .uk-button {
     width: 100%;
+  }
+  body main .main-wrapper .recommended-section .uk-container > .uk-grid .recommended-section-text h2, body main .main-wrapper .recommended-section .uk-container > .uk-grid .recommended-section-text p {
+    text-align: center;
+  }
+  body main .main-wrapper .recommended-section .uk-container > .uk-grid .recommended-section-text .company-testimonials {
+    margin: 0 auto;
+  }
+  body main .main-wrapper .recommended-section .uk-container > .uk-grid .recommended-section-text .company-testimonials p {
+    margin: 0 auto;
+    text-align: center;
+  }
+  body main .main-wrapper .recommended-section .uk-container > .uk-grid .recommended-section-text .view-popular-jobs button {
+    padding: 0 20px;
+    width: 100%;
+  }
+  body main .main-wrapper .recommended-section .uk-container > .uk-grid .recommended-section-text .popular-jobs-stats {
+    height: auto;
+    align-items: normal;
+  }
+  body main .main-wrapper .recommended-section .uk-container > .uk-grid .recommended-section-text .popular-jobs-stats div {
+    margin: 0 auto;
+    text-align: center;
+  }
+  body main .main-wrapper .recommended-section .uk-container > .uk-grid .job-cards {
+    padding: 1em;
+  }
+  body main .main-wrapper .recommended-section .uk-container > .uk-grid .job-cards .job-cards-title {
+    margin: 2em 0 1em 0;
+  }
+  body main .main-wrapper .recommended-section .uk-container > .uk-grid .job-cards .uk-grid {
+    padding-left: 0;
+    margin-left: 0;
   }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */

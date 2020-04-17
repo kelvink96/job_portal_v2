@@ -75,11 +75,13 @@
                         <div class="uk-section uk-grid search-section uk-flex-middle">
                             <div class="uk-width-2-4@m uk-width-1-2@s input-control">
                                 <label for="keyword"><i class="fas fa-search"></i>search</label>
-                                <input type="text" placeholder="keyword" id="keyword" class="uk-input input-transparent">
+                                <input type="text" placeholder="keyword" id="keyword"
+                                       class="uk-input input-transparent">
                             </div>
                             <div class="uk-width-1-4@m uk-width-1-2@s input-control">
                                 <label for="location"><i class="fas fa-map-pin"></i>location</label>
-                                <input type="text" placeholder="location" id="location" class="uk-input input-transparent">
+                                <input type="text" placeholder="location" id="location"
+                                       class="uk-input input-transparent">
                             </div>
                             <div class="uk-width-1-4@m uk-width-1-1@s">
                                 <button class="uk-button uk-button-large button-blue">search</button>
@@ -94,14 +96,27 @@
                 <div class="uk-grid">
                     <div class="uk-width-1-2@m recommended-section-text">
                         <h2 class="uk-text-bold uk-heading-small uk-text-capitalize">recommended jobs</h2>
-                        <p class="uk-text-left">Find the latest posted jobs and tasks by recognized companies and entities.</p>
-                        <div class="uk-grid company-testimonials">
-                            <p class="uk-width-1-4@s"><i class="fab fa-microsoft"></i> microsoft</p>
-                            <p class="uk-width-1-4@s"><i class="fab fa-airbnb"></i> airbnb</p>
-                            <p class="uk-width-1-4@s"><i class="fab fa-amazon"></i> amazon</p>
-                            <p class="uk-width-1-4@s"><i class="fab fa-adobe"></i> adobe</p>
-                            <p class="uk-width-1-4@s"><i class="fab fa-algolia"></i> algolia</p>
-                            <p class="uk-width-1-4@s"><i class="fab fa-kaggle"></i> kaggle</p>
+                        <p class="">Find the latest posted jobs and tasks by recognized companies and
+                            entities.</p>
+                        <div class="uk-grid company-testimonials" uk-grid>
+                            <div class="uk-child-width-1-4@m uk-child-width-1-2@s">
+                                <p><i class="fab fa-microsoft"></i> microsoft</p>
+                            </div>
+                            <div class="uk-child-width-1-4@m uk-child-width-1-2@s">
+                                <p><i class="fab fa-airbnb"></i> airbnb</p>
+                            </div>
+                            <div class="uk-child-width-1-4@m uk-child-width-1-2@s">
+                                <p><i class="fab fa-amazon"></i> amazon</p>
+                            </div>
+                            <div class="uk-child-width-1-4@m uk-child-width-1-2@ss">
+                                <p><i class="fab fa-adobe"></i> adobe</p>
+                            </div>
+                            <div class="uk-child-width-1-4@m uk-child-width-1-2@s">
+                                <p><i class="fab fa-algolia"></i> algolia</p>
+                            </div>
+                            <div class="uk-child-width-1-4@m uk-child-width-1-2@s">
+                                <p><i class="fab fa-kaggle"></i> kaggle</p>
+                            </div>
                         </div>
                         <div class="view-popular-jobs uk-margin-large">
                             <button class="uk-button uk-button-large button-blue">view more popular jobs <i
@@ -116,100 +131,111 @@
                             </div>
                         </div>
                     </div>
-                    <div class="uk-width-1-2@m uk-grid job-cards">
-                        <div class="uk-width-1-2@m">
-                            <div class="uk-card uk-card-body uk-card-default uk-box-shadow-hover-large">
-                                <div class="card-image">
-                                    <i class="fab fa-amazon-pay fa-3x uk-text-left"></i>
-                                    <i class="fas fa-ellipsis-h uk-text-right uk-text-top"></i>
-                                </div>
-                                <div class="card-body">
-                                    <p class="job-title uk-text-bold uk-text-uppercase">backend developer</p>
-                                    <p class="job-company">amazon pay</p>
-                                    <p class="job-location uk-text-muted">los angeles, USA</p>
-                                </div>
-                                <div class="card-action">
-                                    <button class="uk-button button-blue"><span>apply</span><i class="fas fa-pen-fancy"></i></button>
+                    <div class="uk-width-1-2@m job-cards">
+                        <div class="job-cards-title ">
+                            <h3 class="uk-text-bold uk-text-capitalize uk-text-center">recently added jobs</h3>
+                        </div>
+                        <div class="uk-grid">
+                            <div class="uk-width-1-2@m">
+                                <div class="uk-card uk-card-body uk-card-default uk-box-shadow-hover-large">
+                                    <div class="card-image">
+                                        <i class="fab fa-amazon-pay fa-3x uk-text-left"></i>
+                                        <i class="fas fa-ellipsis-h uk-text-right uk-text-top"></i>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="job-title uk-text-bold uk-text-uppercase">backend developer</p>
+                                        <p class="job-company">amazon pay</p>
+                                        <p class="job-location uk-text-muted">los angeles, USA</p>
+                                    </div>
+                                    <div class="card-action">
+                                        <button class="uk-button button-blue"><span>apply</span><i
+                                                class="fas fa-pen-fancy"></i></button>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="uk-width-1-2@m">
-                            <div class="uk-card uk-card-body uk-card-default uk-box-shadow-hover-large">
-                                <div class="card-image">
-                                    <i class="fab fa-facebook fa-3x uk-text-left"></i>
-                                    <i class="fas fa-ellipsis-h uk-text-right uk-text-top"></i>
-                                </div>
-                                <div class="card-body">
-                                    <p class="job-title uk-text-bold uk-text-uppercase">UI designer</p>
-                                    <p class="job-company">facebook</p>
-                                    <p class="job-location uk-text-muted">remote</p>
-                                </div>
-                                <div class="card-action">
-                                    <button class="uk-button button-blue"><span>apply</span><i class="fas fa-pen-fancy"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="uk-width-1-2@m">
-                            <div class="uk-card uk-card-body uk-card-default uk-box-shadow-hover-large">
-                                <div class="card-image">
-                                    <i class="fab fa-mendeley fa-3x uk-text-left"></i>
-                                    <i class="fas fa-ellipsis-h uk-text-right uk-text-top"></i>
-                                </div>
-                                <div class="card-body">
-                                    <p class="job-title uk-text-bold uk-text-uppercase">software architect</p>
-                                    <p class="job-company">mendeley</p>
-                                    <p class="job-location uk-text-muted">vancouver, CND</p>
-                                </div>
-                                <div class="card-action">
-                                    <button class="uk-button button-blue"><span>apply</span><i class="fas fa-pen-fancy"></i></button>
+                            <div class="uk-width-1-2@m">
+                                <div class="uk-card uk-card-body uk-card-default uk-box-shadow-hover-large">
+                                    <div class="card-image">
+                                        <i class="fab fa-facebook fa-3x uk-text-left"></i>
+                                        <i class="fas fa-ellipsis-h uk-text-right uk-text-top"></i>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="job-title uk-text-bold uk-text-uppercase">UI designer</p>
+                                        <p class="job-company">facebook</p>
+                                        <p class="job-location uk-text-muted">remote</p>
+                                    </div>
+                                    <div class="card-action">
+                                        <button class="uk-button button-blue"><span>apply</span><i
+                                                class="fas fa-pen-fancy"></i></button>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="uk-width-1-2@m">
-                            <div class="uk-card uk-card-body uk-card-default uk-box-shadow-hover-large">
-                                <div class="card-image">
-                                    <i class="fab fa-algolia fa-3x uk-text-left"></i>
-                                    <i class="fas fa-ellipsis-h uk-text-right uk-text-top"></i>
-                                </div>
-                                <div class="card-body">
-                                    <p class="job-title uk-text-bold uk-text-uppercase">nodejs developer</p>
-                                    <p class="job-company">algolia</p>
-                                    <p class="job-location uk-text-muted">remote</p>
-                                </div>
-                                <div class="card-action">
-                                    <button class="uk-button button-blue"><span>apply</span><i class="fas fa-pen-fancy"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="uk-width-1-2@m">
-                            <div class="uk-card uk-card-body uk-card-default uk-box-shadow-hover-large">
-                                <div class="card-image">
-                                    <i class="fab fa-microsoft fa-3x uk-text-left"></i>
-                                    <i class="fas fa-ellipsis-h uk-text-right uk-text-top"></i>
-                                </div>
-                                <div class="card-body">
-                                    <p class="job-title uk-text-bold uk-text-uppercase">react developer</p>
-                                    <p class="job-company">microsoft</p>
-                                    <p class="job-location uk-text-muted">san francisco, USA</p>
-                                </div>
-                                <div class="card-action">
-                                    <button class="uk-button button-blue"><span>apply</span><i class="fas fa-pen-fancy"></i></button>
+                            <div class="uk-width-1-2@m">
+                                <div class="uk-card uk-card-body uk-card-default uk-box-shadow-hover-large">
+                                    <div class="card-image">
+                                        <i class="fab fa-mendeley fa-3x uk-text-left"></i>
+                                        <i class="fas fa-ellipsis-h uk-text-right uk-text-top"></i>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="job-title uk-text-bold uk-text-uppercase">software architect</p>
+                                        <p class="job-company">mendeley</p>
+                                        <p class="job-location uk-text-muted">vancouver, CND</p>
+                                    </div>
+                                    <div class="card-action">
+                                        <button class="uk-button button-blue"><span>apply</span><i
+                                                class="fas fa-pen-fancy"></i></button>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="uk-width-1-2@m">
-                            <div class="uk-card uk-card-body uk-card-default uk-box-shadow-hover-large">
-                                <div class="card-image">
-                                    <i class="fab fa-adobe fa-3x uk-text-left"></i>
-                                    <i class="fas fa-ellipsis-h uk-text-right uk-text-top"></i>
+                            <div class="uk-width-1-2@m">
+                                <div class="uk-card uk-card-body uk-card-default uk-box-shadow-hover-large">
+                                    <div class="card-image">
+                                        <i class="fab fa-algolia fa-3x uk-text-left"></i>
+                                        <i class="fas fa-ellipsis-h uk-text-right uk-text-top"></i>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="job-title uk-text-bold uk-text-uppercase">nodejs developer</p>
+                                        <p class="job-company">algolia</p>
+                                        <p class="job-location uk-text-muted">remote</p>
+                                    </div>
+                                    <div class="card-action">
+                                        <button class="uk-button button-blue"><span>apply</span><i
+                                                class="fas fa-pen-fancy"></i></button>
+                                    </div>
                                 </div>
-                                <div class="card-body">
-                                    <p class="job-title uk-text-bold uk-text-uppercase">c++ developer</p>
-                                    <p class="job-company">adobe</p>
-                                    <p class="job-location uk-text-muted">san jose, USA</p>
+                            </div>
+                            <div class="uk-width-1-2@m">
+                                <div class="uk-card uk-card-body uk-card-default uk-box-shadow-hover-large">
+                                    <div class="card-image">
+                                        <i class="fab fa-microsoft fa-3x uk-text-left"></i>
+                                        <i class="fas fa-ellipsis-h uk-text-right uk-text-top"></i>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="job-title uk-text-bold uk-text-uppercase">react developer</p>
+                                        <p class="job-company">microsoft</p>
+                                        <p class="job-location uk-text-muted">san francisco, USA</p>
+                                    </div>
+                                    <div class="card-action">
+                                        <button class="uk-button button-blue"><span>apply</span><i
+                                                class="fas fa-pen-fancy"></i></button>
+                                    </div>
                                 </div>
-                                <div class="card-action">
-                                    <button class="uk-button button-blue"><span>apply</span><i class="fas fa-pen-fancy"></i></button>
+                            </div>
+                            <div class="uk-width-1-2@m">
+                                <div class="uk-card uk-card-body uk-card-default uk-box-shadow-hover-large">
+                                    <div class="card-image">
+                                        <i class="fab fa-adobe fa-3x uk-text-left"></i>
+                                        <i class="fas fa-ellipsis-h uk-text-right uk-text-top"></i>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="job-title uk-text-bold uk-text-uppercase">c++ developer</p>
+                                        <p class="job-company">adobe</p>
+                                        <p class="job-location uk-text-muted">san jose, USA</p>
+                                    </div>
+                                    <div class="card-action">
+                                        <button class="uk-button button-blue"><span>apply</span><i
+                                                class="fas fa-pen-fancy"></i></button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -220,7 +246,8 @@
         <div class="job-offers-section uk-section uk-container uk-flex uk-flex-middle">
             <div class="uk-container uk-text-center">
                 <h2 class="uk-heading-medium uk-text-bold">Do you have a job opportunity?</h2>
-                <button class="uk-button uk-button-large button-white">post a job <i class="fas fa-pen-square"></i></button>
+                <button class="uk-button uk-button-large button-white">post a job <i class="fas fa-pen-square"></i>
+                </button>
             </div>
         </div>
         <div class="news-section uk-section uk-container">
@@ -257,7 +284,8 @@
                                 <img src="assets/images/news2.webp" loading="lazy" alt="">
                             </div>
                             <div class="uk-card-body">
-                                <h3 class="uk-card-title">It is a little hard to find a community on Twitch Platform</h3>
+                                <h3 class="uk-card-title">It is a little hard to find a community on Twitch
+                                    Platform</h3>
                                 <p>One of the weirdest things to me about Twitch is how it’s a social site that doesn’t
                                     incentivize.</p>
                             </div>
