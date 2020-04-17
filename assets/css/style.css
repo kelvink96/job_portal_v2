@@ -313,6 +313,9 @@ main .main-wrapper .news-section .news-content > .uk-grid .uk-card .uk-card-body
 main .main-wrapper .news-section .news-content > .uk-grid .uk-card .uk-card-footer {
   padding: 15px;
 }
+main .main-wrapper .news-section .news-content > .uk-grid .uk-card .uk-card-footer .likes {
+  margin-right: auto;
+}
 main .main-wrapper .news-section .news-content > .uk-grid .uk-card .uk-card-footer .fa-heart {
   color: deeppink;
 }
@@ -472,6 +475,15 @@ footer .uk-container p {
   body main .main-wrapper .job-offers-section .uk-container .uk-heading-medium {
     font-size: 2.5em;
     font-weight: 600;
+  }
+  body main .main-wrapper .news-section .news-section-title {
+    margin: 2em 0;
+  }
+  body main .main-wrapper .news-section .news-content {
+    padding: 1em;
+  }
+  body main .main-wrapper .news-section .news-content .uk-grid .uk-width-1-4\@m .uk-card {
+    margin-bottom: 1.5em;
   }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
