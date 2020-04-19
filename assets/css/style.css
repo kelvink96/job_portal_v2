@@ -532,5 +532,13 @@ footer .uk-container p {
 /* Medium devices (landscape tablets, 768px and up) */
 /* Large devices (laptops/desktops, 992px and up) */
 /* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1600px) {
+  body .uk-container, body .hero-section {
+    width: 90%;
+  }
+  body .testimonials-section .testimonials-content .uk-slideshow-items {
+    width: 100% !important;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
