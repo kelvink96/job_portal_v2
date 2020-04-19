@@ -311,6 +311,7 @@ main
 
             &:hover,
             &:focus
+              cursor: pointer
               transform: scale(1.07, 1.07)
               transition: all ease .2s
 
@@ -343,7 +344,7 @@ main
         .uk-slideshow-items
           width: 90%
           margin: 0 auto
-          min-height: 420px
+          min-height: 420px !important
 
           li
             img
@@ -368,7 +369,6 @@ main
                 p
                   margin: 0
                   font-size: $fsi-m
-
 
         .uk-position-bottom-right
           a
@@ -500,6 +500,10 @@ footer
               .uk-width-1-4\@m
                 .uk-card
                   margin-bottom: 1.5em
+
+                  .uk-media-top
+                    img
+                      width: 120%
 
             .read-more-btn
               margin-top: 0
