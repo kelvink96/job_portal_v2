@@ -204,6 +204,8 @@ main
               font-size: $fsi-s
 
       .job-cards
+        margin-top: 1em
+
         .job-cards-title
           width: 100%
 
@@ -284,6 +286,8 @@ main
       .news-content
         & > .uk-grid
           .uk-card
+            margin-bottom: 1em
+
             .uk-card-body
               padding: 20px
 
@@ -545,7 +549,27 @@ footer
 @media only screen and (min-width: 600px)
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px)
+@media only screen and (min-width: 600px) and (max-width: 768px)
+  body
+    .main-wrapper
+      .hero-section
+        align-items: inherit
+        height: auto
+
+        .hero-text
+          .stats-section, .search-section
+            margin: 1.5em auto
+
+          .search-section
+            border-radius: .5em
+
+            .search-btn
+              padding-top: 1em
+              padding-bottom: .5em
+
+              .uk-button
+                margin-left: 25%
+                width: 40%
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) and (max-width: 1280px)
