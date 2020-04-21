@@ -1,10 +1,15 @@
-# Job portal web design
+# Job portal web design (Qazi)
 
-Hero image by <b>Photo by KOBU Agency on Unsplash</b><br>
-Job opportunity section image by <b>Photo by Christin Hume on Unsplash</b> <br>
-News 1 image by <b>Photo by Austin Distel on Unsplash</b>
-P1 -> Photo by Yucel Moran on Unsplash 
-P2 -> Photo by Dan on Unsplash
-P3 -> Photo by Craig McKay on Unsplash
-P4 -> Photo by Luis Villasmil on Unsplash
-P5 -> Photo by Sergio de Paula on Unsplash
+Job Portal web page designed using * [UIkit](https://getuikit.com/) (CSS framework)
+
+![alt text](screenshots/qazi-job-portal.jpg)<br>
+
+Hero image by **Photo by KOBU Agency on Unsplash** <br>
+Job opportunity section image by **Photo by Christin Hume on Unsplash**</b>
+
+#### Testimonial Images ####
+* Photo by Yucel Moran on Unsplash 
+* Photo by Dan on Unsplash
+* Photo by Craig McKay on Unsplash
+* Photo by Luis Villasmil on Unsplash
+* Photo by Sergio de Paula on Unsplash
