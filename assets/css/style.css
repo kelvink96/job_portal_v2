@@ -66,7 +66,7 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p, body a, body span,
 
 header nav {
   background-color: #f2f2f2;
-  padding: 0 1em;
+  padding: 0 2em;
 }
 header nav .uk-navbar-right li a {
   color: #4491a2;
@@ -146,6 +146,10 @@ header .side-nav .uk-offcanvas-bar .uk-nav hr {
   margin-right: auto;
 }
 
+main .main-wrapper .recommended-section, main .main-wrapper .news-section, main .main-wrapper .job-offers-section, main .main-wrapper .testimonials-section {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
 main .main-wrapper .hero-section {
   margin-top: 0;
   background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero.jpg");
@@ -396,7 +400,7 @@ main .main-wrapper .testimonials-section .testimonials-content .uk-position-bott
 
 footer {
   padding: 1em;
-  background-color: #4491a2;
+  background-color: #0c7bbb;
 }
 footer .uk-container p {
   color: #f2f2f2;
@@ -531,6 +535,17 @@ footer .uk-container p {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 /* Medium devices (landscape tablets, 768px and up) */
 /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1280px) {
+  body .main-wrapper .recommended-section .recommended-section-text {
+    padding: 1em 2.5em 0 2.5em;
+  }
+  body .main-wrapper .recommended-section .recommended-section-text .view-popular-jobs {
+    text-align: center;
+  }
+  body .main-wrapper .job-offers-section {
+    border-radius: 0;
+  }
+}
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1600px) {
   body .uk-container, body .hero-section {

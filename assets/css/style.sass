@@ -12,7 +12,7 @@ body
 header
   nav
     background-color: $color-white
-    padding: 0 1em
+    padding: 0 2em
 
     .uk-navbar-right
       li
@@ -105,6 +105,10 @@ header
 
 main
   .main-wrapper
+    .recommended-section, .news-section, .job-offers-section, .testimonials-section
+      padding-top: 64px
+      padding-bottom: 64px
+
     .hero-section
       margin-top: 0
       background-image: linear-gradient(90deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0.5)), url("../images/hero.jpg")
@@ -388,7 +392,7 @@ main
 
 footer
   padding: 1em
-  background-color: $color-cyan-darkest
+  background-color: $color-blue-medium
 
   .uk-container
     p
@@ -522,6 +526,7 @@ footer
 
             .uk-slideshow-items
               background-color: $color-grey
+
               li
                 img
                   width: 50%
@@ -543,7 +548,18 @@ footer
 @media only screen and (min-width: 768px)
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px)
+@media only screen and (min-width: 992px) and (max-width: 1280px)
+  body
+    .main-wrapper
+      .recommended-section
+        .recommended-section-text
+          padding: 1em 2.5em 0 2.5em
+
+          .view-popular-jobs
+            text-align: center
+
+      .job-offers-section
+        border-radius: 0
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1600px)
